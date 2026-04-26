@@ -19,3 +19,8 @@
 - `assets/css/base.css` : variables + socle global.
 - `assets/css/layout.css` : structure, sections, responsive.
 - `assets/css/components.css` : composants réutilisables.
+
+## Illustrations
+- `assets/img/context-window.svg` : diagramme fenêtre de contexte.
+- `assets/img/vector-db.svg` : diagramme base vectorielle.
+- `assets/img/decision-tree.svg` : diagramme arbre de décision.

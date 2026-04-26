@@ -194,3 +194,17 @@ th {
 .clean-list {
   padding-left: 20px;
 }
+
+.concept-diagram {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: #0f172a;
+}
+
+.diagram-caption {
+  margin: 12px 0 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
