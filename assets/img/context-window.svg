@@ -1,0 +1,25 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fenêtre de contexte</title>
+  <desc id="desc">Schéma montrant les entrées pédagogiques qui alimentent la fenêtre de contexte d'un modèle d'IA.</desc>
+  <rect width="960" height="540" rx="24" fill="#0F172A"/>
+  <text x="60" y="70" fill="#F8FAFC" font-size="34" font-family="Inter, Arial" font-weight="700">Fenêtre de contexte</text>
+  <rect x="60" y="120" width="220" height="72" rx="16" fill="#1D4ED8"/>
+  <text x="80" y="165" fill="white" font-size="24" font-family="Inter, Arial">Niveau classe</text>
+  <rect x="60" y="220" width="220" height="72" rx="16" fill="#2563EB"/>
+  <text x="80" y="265" fill="white" font-size="24" font-family="Inter, Arial">Objectifs</text>
+  <rect x="60" y="320" width="220" height="72" rx="16" fill="#3B82F6"/>
+  <text x="80" y="365" fill="white" font-size="24" font-family="Inter, Arial">Contraintes</text>
+  <rect x="350" y="150" width="280" height="250" rx="20" fill="#111827" stroke="#60A5FA" stroke-width="3"/>
+  <text x="395" y="220" fill="#DBEAFE" font-size="30" font-family="Inter, Arial" font-weight="700">Contexte</text>
+  <text x="405" y="265" fill="#DBEAFE" font-size="30" font-family="Inter, Arial" font-weight="700">actif</text>
+  <text x="385" y="320" fill="#93C5FD" font-size="22" font-family="Inter, Arial">ce que l'IA voit</text>
+  <rect x="700" y="220" width="200" height="110" rx="18" fill="#F97316"/>
+  <text x="745" y="285" fill="white" font-size="26" font-family="Inter, Arial" font-weight="700">Réponse</text>
+  <path d="M282 156H340" stroke="#93C5FD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M282 256H340" stroke="#93C5FD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M282 356H340" stroke="#93C5FD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M632 275H690" stroke="#FDBA74" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="343" cy="156" r="7" fill="#93C5FD"/>
+  <circle cx="343" cy="256" r="7" fill="#93C5FD"/>
+  <circle cx="343" cy="356" r="7" fill="#93C5FD"/>
+</svg>

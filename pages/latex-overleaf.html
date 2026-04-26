@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaTeX & Overleaf — IA × Maths</title>
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/layout.css" />
+  <link rel="stylesheet" href="../assets/css/components.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand"><span class="brand-icon">∑</span><span>IA × Maths</span></div><button class="menu-toggle">☰</button>
+      
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="formation.html">Formation</a>
+        <a href="fonctionnement-ia.html">Fonctionnement IA</a>
+        <a href="plateformes.html">Plateformes</a>
+        <a href="prompting.html">Prompting</a>
+        <a href="prompts.html">Prompts</a>
+        <a href="cadre-juridique.html">Cadre juridique</a>
+        <a href="ressources.html">Ressources</a>
+      </div>
+    </nav>
+    <section class="page-hero"><p class="eyebrow">LaTeX & Overleaf</p><h1>Créer une fiche prête à compiler</h1></section>
+  </header>
+  <main>
+    <section class="section two-columns">
+      <div>
+        <h2>Étapes</h2>
+        <ol class="clean-list"><li>Créer un projet Overleaf.</li><li>Coller le code généré.</li><li>Compiler et vérifier.</li><li>Exporter en PDF.</li></ol>
+      </div>
+      <div class="prompt-box">
+        <button class="copy-btn" data-copy-target="latex-code">Copier</button>
+        <pre id="latex-code"><code>\documentclass[11pt,a4paper]{article}
+\usepackage[french]{babel}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\section*{Séquence : Fonctions affines}
+\end{document}</code></pre>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><p>Formation IA — LaTeX</p><a href="../index.html">Accueil</a></footer>
+  <script src="../assets/js/nav.js"></script>
+  <script src="../assets/js/copy.js"></script>
+</body>
+</html>
