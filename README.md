@@ -1,32 +1,23 @@
 # Site de formation IA — Enseignants de mathématiques
 
-## Contenu
+## Structure multipage
 
-Ce dossier contient un site statique complet :
+- `index.html` : accueil
+- `pages/` : pages thématiques (formation, concepts, prompts, LaTeX, vérification, ressources)
+- `assets/css/` : styles mutualisés (`base`, `layout`, `components`)
+- `assets/js/` : scripts mutualisés (`nav`, `tabs`, `copy`)
+- `docs/` : documentation éditoriale
 
-- `index.html`
-- `style.css`
-- `script.js`
+## Lancer en local
 
-## Utilisation locale
+Ouvrir `index.html` dans un navigateur.
 
-Double-cliquer sur `index.html`.
+## Publication GitHub Pages
 
-## Publication sur GitHub Pages
+1. Pousser le contenu du dépôt sur GitHub.
+2. Vérifier que `index.html` est à la racine.
+3. Activer `Settings > Pages` sur la branche principale.
 
-1. Créer un dépôt GitHub.
-2. Ajouter les trois fichiers à la racine du dépôt.
-3. Vérifier que le fichier principal s'appelle bien `index.html`.
-4. Aller dans `Settings > Pages`.
-5. Choisir la branche principale et la racine du dépôt comme source.
-6. Attendre la publication.
+## Référence d'architecture
 
-## Modification
-
-Les contenus principaux sont dans `index.html`.
-Les styles sont dans `style.css`.
-Les interactions simples sont dans `script.js`.
-
-## Version
-
-Première version statique, sans dépendance externe.
+Voir aussi `SITE_STRUCTURE.md` pour la proposition détaillée et l'ordre de migration.
