@@ -3,10 +3,11 @@
 ## Pages multipage
 - `index.html` : page d'accueil et orientation.
 - `pages/formation.html` : déroulé pédagogique.
-- `pages/concepts.html` : concepts IA (modèles, wrappers, agents).
+- `pages/fonctionnement-ia.html` : fenêtre de contexte, base vectorielle, arbre de décision.
+- `pages/plateformes.html` : plateformes, wrappers et outils spécifiques.
+- `pages/prompting.html` : prompt engineering et context engineering.
 - `pages/prompts.html` : bibliothèque de prompts.
-- `pages/latex-overleaf.html` : publication de fiches LaTeX.
-- `pages/verification.html` : cadre et grille de vérification.
+- `pages/cadre-juridique.html` : textes officiels et jurisprudences IA.
 - `pages/ressources.html` : ressources mutualisées.
 
 ## Scripts

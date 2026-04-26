@@ -3,7 +3,7 @@
 ## Structure multipage
 
 - `index.html` : accueil
-- `pages/` : pages thématiques (formation, concepts, prompts, LaTeX, vérification, ressources)
+- `pages/` : pages thématiques (formation, fonctionnement IA, plateformes, prompting, prompts, cadre juridique, ressources)
 - `assets/css/` : styles mutualisés (`base`, `layout`, `components`)
 - `assets/js/` : scripts mutualisés (`nav`, `tabs`, `copy`)
 - `docs/` : documentation éditoriale
