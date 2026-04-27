@@ -1,0 +1,23 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cadre d'usage de l'IA en éducation</title>
+  <desc id="desc">Infographie des principes clés du cadre d'usage en éducation.</desc>
+  <rect width="960" height="540" rx="24" fill="#0F172A"/>
+  <text x="48" y="68" fill="#F8FAFC" font-size="34" font-family="Inter, Arial" font-weight="700">Encadrement de l'IA en éducation</text>
+  <rect x="50" y="110" width="270" height="120" rx="16" fill="#1D4ED8"/>
+  <text x="75" y="158" fill="white" font-size="24" font-family="Inter, Arial">Usages autorisés</text>
+  <text x="75" y="192" fill="white" font-size="19" font-family="Inter, Arial">si cadre éthique & légal</text>
+  <rect x="345" y="110" width="270" height="120" rx="16" fill="#2563EB"/>
+  <text x="370" y="158" fill="white" font-size="24" font-family="Inter, Arial">Rôle enseignant</text>
+  <text x="370" y="192" fill="white" font-size="19" font-family="Inter, Arial">assister, jamais remplacer</text>
+  <rect x="640" y="110" width="270" height="120" rx="16" fill="#3B82F6"/>
+  <text x="665" y="158" fill="white" font-size="24" font-family="Inter, Arial">Données perso</text>
+  <text x="665" y="192" fill="white" font-size="19" font-family="Inter, Arial">protection obligatoire</text>
+  <rect x="120" y="290" width="320" height="170" rx="20" fill="#111827" stroke="#60A5FA" stroke-width="3"/>
+  <text x="145" y="342" fill="#DBEAFE" font-size="24" font-family="Inter, Arial" font-weight="700">Élèves</text>
+  <text x="145" y="378" fill="#DBEAFE" font-size="20" font-family="Inter, Arial">• Sensibilisation au 1er degré</text>
+  <text x="145" y="406" fill="#DBEAFE" font-size="20" font-family="Inter, Arial">• IA générative en 4e et +</text>
+  <rect x="510" y="290" width="330" height="170" rx="20" fill="#111827" stroke="#F97316" stroke-width="3"/>
+  <text x="535" y="342" fill="#FED7AA" font-size="24" font-family="Inter, Arial" font-weight="700">Points de vigilance</text>
+  <text x="535" y="378" fill="#FED7AA" font-size="20" font-family="Inter, Arial">• Biais et hallucinations</text>
+  <text x="535" y="406" fill="#FED7AA" font-size="20" font-family="Inter, Arial">• Impact environnemental</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arbre de décision</title>
+  <desc id="desc">Arbre de décision simple avec embranchements oui/non et options finales.</desc>
+  <rect width="960" height="540" rx="24" fill="#0E1628"/>
+  <text x="60" y="70" fill="#F8FAFC" font-size="34" font-family="Inter, Arial" font-weight="700">Arbre de décision</text>
+
+  <circle cx="480" cy="150" r="56" fill="#1D4ED8"/>
+  <text x="430" y="158" fill="white" font-size="22" font-family="Inter, Arial" font-weight="700">Question 1</text>
+
+  <circle cx="300" cy="300" r="48" fill="#2563EB"/>
+  <text x="258" y="308" fill="white" font-size="20" font-family="Inter, Arial" font-weight="700">Option C</text>
+
+  <circle cx="660" cy="300" r="56" fill="#3B82F6"/>
+  <text x="610" y="308" fill="white" font-size="22" font-family="Inter, Arial" font-weight="700">Question 2</text>
+
+  <circle cx="580" cy="440" r="44" fill="#F97316"/>
+  <text x="548" y="448" fill="white" font-size="20" font-family="Inter, Arial" font-weight="700">Option B</text>
+
+  <circle cx="740" cy="440" r="44" fill="#FB923C"/>
+  <text x="708" y="448" fill="white" font-size="20" font-family="Inter, Arial" font-weight="700">Option A</text>
+
+  <path d="M435 185L336 260" stroke="#93C5FD" stroke-width="5"/>
+  <path d="M525 185L620 260" stroke="#93C5FD" stroke-width="5"/>
+  <path d="M640 350L602 398" stroke="#FDBA74" stroke-width="5"/>
+  <path d="M680 350L720 398" stroke="#FDBA74" stroke-width="5"/>
+
+  <text x="372" y="230" fill="#BFDBFE" font-size="20" font-family="Inter, Arial">Non</text>
+  <text x="555" y="230" fill="#BFDBFE" font-size="20" font-family="Inter, Arial">Oui</text>
+  <text x="610" y="395" fill="#FED7AA" font-size="18" font-family="Inter, Arial">Non</text>
+  <text x="700" y="395" fill="#FED7AA" font-size="18" font-family="Inter, Arial">Oui</text>
+</svg>

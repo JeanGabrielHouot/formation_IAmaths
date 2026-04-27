@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Formation IA — Enseignants de mathématiques</title>
-  <meta name="description" content="Site de formation sur l'usage de l'IA générative pour les enseignants de mathématiques : prompts, context engineering, Markdown, LaTeX, Overleaf, RGPD." />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Accueil du site multipage de formation sur l'usage de l'IA pour les enseignants de mathématiques." />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
 </head>
 <body>
   <header class="hero" id="top">
@@ -13,126 +15,49 @@
       <div class="brand"><span class="brand-icon">∑</span><span>IA × Maths</span></div>
       <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
       <div class="nav-links">
-        <a href="#formation">Formation</a><a href="#concepts">Concepts</a><a href="#prompts">Prompts</a><a href="#latex">LaTeX</a><a href="#cadre">Cadre</a><a href="#ressources">Ressources</a>
+        <a href="index.html">Accueil</a>
+        <a href="pages/formation.html">Formation</a>
+        <a href="pages/fonctionnement-ia.html">Fonctionnement IA</a>
+        <a href="pages/plateformes.html">Plateformes</a>
+        <a href="pages/prompting.html">Prompting</a>
+        <a href="pages/prompts.html">Prompts</a>
+        <a href="pages/cadre-juridique.html">Cadre juridique</a>
+        <a href="pages/ressources.html">Ressources</a>
       </div>
     </nav>
+
     <section class="hero-content">
       <p class="eyebrow">Formation enseignants · Mathématiques · IA générative</p>
-      <h1>Enseigner les mathématiques avec l’IA sans laisser le pilote automatique corriger le brevet.</h1>
-      <p class="hero-text">Un site de formation pour comprendre les modèles d’IA, construire de bons contextes, créer des ressources mathématiques, vérifier les productions et produire des fiches en Markdown, LaTeX et Overleaf.</p>
-      <div class="hero-actions"><a class="btn primary" href="#formation">Voir le parcours</a><a class="btn secondary" href="#prompts">Accéder aux prompts</a></div>
+      <h1>Version multipage du site IA × Maths</h1>
+      <p class="hero-text">Une navigation claire par objectifs pédagogiques : comprendre, produire, vérifier et publier vos ressources avec l'IA.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="pages/formation.html">Démarrer le parcours</a>
+        <a class="btn secondary" href="pages/prompts.html">Ouvrir les prompts</a>
+      </div>
     </section>
   </header>
+
   <main>
-    <section class="section intro-grid" id="formation">
-      <div><p class="section-tag">Objectif général</p><h2>Former à l’IA comme assistant pédagogique contrôlé</h2><p>Le but n’est pas d’apprendre une collection de prompts magiques, mais de savoir construire un contexte pédagogique clair, vérifier les mathématiques et transformer une idée de cours en ressource exploitable.</p></div>
-      <div class="card highlight"><h3>Phrase clé</h3><p>Bien utiliser l’IA, ce n’est pas poser une meilleure question : c’est construire un meilleur contexte.</p></div>
+    <section class="section">
+      <p class="section-tag">Navigation</p>
+      <h2>Choisir une page selon votre besoin</h2>
+      <div class="resource-grid">
+        <article class="resource"><h3>Formation</h3><p>Déroulé 3h/6h et progression d'atelier.</p><a class="btn primary" href="pages/formation.html">Voir</a></article>
+        <article class="resource"><h3>Fonctionnement IA</h3><p>Fenêtre de contexte, base vectorielle et arbre de décision.</p><a class="btn primary" href="pages/fonctionnement-ia.html">Voir</a></article>
+        <article class="resource"><h3>Plateformes</h3><p>ChatGPT, Claude, Gemini, Mistral, wrappers et outils spécifiques.</p><a class="btn primary" href="pages/plateformes.html">Voir</a></article>
+        <article class="resource"><h3>Prompting</h3><p>Méthodes de prompt et context engineering.</p><a class="btn primary" href="pages/prompting.html">Voir</a></article>
+        <article class="resource"><h3>Prompts</h3><p>Bibliothèque de prompts prêts à adapter.</p><a class="btn primary" href="pages/prompts.html">Voir</a></article>
+        <article class="resource"><h3>Cadre juridique</h3><p>Textes Eduscol et jurisprudences sur l'IA.</p><a class="btn primary" href="pages/cadre-juridique.html">Voir</a></article>
+        <article class="resource"><h3>Ressources</h3><p>Kit de formation et supports réutilisables.</p><a class="btn primary" href="pages/ressources.html">Voir</a></article>
+      </div>
     </section>
-    <section class="section"><p class="section-tag">Parcours</p><h2>Déroulé conseillé en 6 heures</h2><div class="timeline">
-      <article class="step"><span>1</span><h3>Comprendre</h3><p>Modèles, wrappers, agents, IA générative, limites et usages réalistes.</p></article>
-      <article class="step"><span>2</span><h3>Structurer</h3><p>Prompt engineering, context engineering, Markdown et cahier des charges.</p></article>
-      <article class="step"><span>3</span><h3>Produire</h3><p>Activités, automatismes, tâches complexes, corrections et différenciation.</p></article>
-      <article class="step"><span>4</span><h3>Vérifier</h3><p>Exactitude mathématique, niveau, progressivité et cohérence des notations.</p></article>
-      <article class="step"><span>5</span><h3>Publier</h3><p>Fiche LaTeX compilable sur Overleaf, export PDF et partage aux collègues.</p></article>
-    </div></section>
-    <section class="section two-columns" id="concepts"><div><p class="section-tag">Panorama</p><h2>Modèles, wrappers, agents : qui fait quoi ?</h2><div class="table-wrap"><table><thead><tr><th>Famille</th><th>Exemples</th><th>Usage maths</th></tr></thead><tbody><tr><td>Modèles</td><td>GPT, Claude, Gemini, Mistral</td><td>Rédaction, raisonnement, génération de ressources</td></tr><tr><td>Wrappers</td><td>ChatGPT, Claude, Gemini, Perplexity</td><td>Interface avec fichiers, recherche, mémoire ou outils</td></tr><tr><td>Agents</td><td>Codex, Genspark, outils agentiques</td><td>Planifier, chercher, coder, produire des supports</td></tr><tr><td>Tout-en-un éducatif</td><td>NotebookLM</td><td>Travailler à partir de documents de cours</td></tr></tbody></table></div></div><aside class="card"><h3>À retenir</h3><p>Plus l’outil devient autonome, plus il devient utile… et plus il faut vérifier. En mathématiques, une erreur bien présentée reste une erreur.</p></aside></section>
-    <section class="section"><p class="section-tag">Context engineering</p><h2>Du prompt vague au contexte pédagogique</h2><div class="ascii-card"><pre><code>ENSEIGNANT
-   |
-   | Demande
-   v
-+-----------------------------+
-| Prompt utilisateur          |
-| "Crée une activité sur les  |
-| fonctions affines en 2nde"  |
-+-----------------------------+
-   |
-   | Ajout du contexte
-   v
-+-----------------------------+
-| Contexte pédagogique        |
-| - Niveau : Seconde          |
-| - Durée : 30 min            |
-| - Prérequis : fonctions     |
-| - Difficultés : calcul litt.|
-+-----------------------------+
-   |
-   v
-+-----------------------------+
-| Réponse IA                  |
-| Activité + correction       |
-+-----------------------------+
-   |
-   v
-+-----------------------------+
-| Vérification professeur     |
-+-----------------------------+</code></pre></div></section>
-    <section class="section two-columns"><div><h2>Base vectorielle : idée simple</h2><p>Une base vectorielle permet de retrouver des contenus proches par le sens. Une question sur les fonctions affines peut ainsi retrouver un exercice sur un tarif de taxi, car la structure mathématique est proche.</p></div><div class="ascii-card small"><pre><code>Documents → morceaux → vecteurs
-       ↓
-Base vectorielle
-       ↓
-Recherche par proximité de sens
-       ↓
-Contexte utile envoyé au modèle
-       ↓
-Réponse générée</code></pre></div></section>
-    <section class="section" id="prompts"><p class="section-tag">Atelier</p><h2>Banque de prompts mathématiques</h2><p class="section-intro">Sélectionne un type de prompt. Tu peux le copier puis l’adapter à ton niveau, ta notion et ton objectif.</p><div class="prompt-tabs" role="tablist"><button class="tab active" data-tab="intro">Activité d’introduction</button><button class="tab" data-tab="auto">Automatismes</button><button class="tab" data-tab="complexe">Tâche complexe</button><button class="tab" data-tab="latexprompt">LaTeX</button><button class="tab" data-tab="verification">Vérification</button></div><div class="prompt-box"><button class="copy-btn" data-copy-target="prompt-content">Copier</button><pre id="prompt-content"><code># Rôle
-Tu es professeur de mathématiques en classe de [niveau].
-
-# Objectif
-Créer une activité d’introduction pour découvrir [notion].
-
-# Contexte
-- Les élèves connaissent déjà : [prérequis].
-- Les difficultés fréquentes sont : [difficultés].
-- La classe est : [profil de classe].
-
-# Contraintes
-- Durée : [durée]
-- L’activité doit faire émerger la notion sans la donner directement.
-- Prévoir une phase de recherche.
-- Prévoir une mise en commun.
-- Prévoir une trace écrite.
-
-# Format attendu
-1. Objectifs
-2. Activité élève
-3. Questions de relance
-4. Trace écrite
-5. Correction professeur
-6. Points de vigilance</code></pre></div></section>
-    <section class="section"><p class="section-tag">Markdown</p><h2>Pourquoi utiliser Markdown avec une IA ?</h2><div class="cards"><article class="card"><h3>Structurer</h3><p>Les titres séparent rôle, contexte, contraintes et format attendu.</p></article><article class="card"><h3>Clarifier</h3><p>Les listes évitent les consignes noyées dans un paragraphe interminable.</p></article><article class="card"><h3>Isoler</h3><p>Les blocs de code séparent les consignes du texte à transformer.</p></article></div></section>
-    <section class="section two-columns" id="latex"><div><p class="section-tag">LaTeX & Overleaf</p><h2>Créer une fiche de mathématiques prête à compiler</h2><p>L’atelier Overleaf permet aux participants de générer une fiche propre : objectifs, activité, trace écrite, exercices, correction et points de vigilance.</p><ol class="clean-list"><li>Créer un compte Overleaf.</li><li>Créer un nouveau projet vierge.</li><li>Coller le code LaTeX généré.</li><li>Compiler et vérifier.</li><li>Exporter le PDF.</li></ol></div><div class="prompt-box compact"><button class="copy-btn" data-copy-target="latex-code">Copier</button><pre id="latex-code"><code>\documentclass[11pt,a4paper]{article}
-\usepackage[french]{babel}
-\usepackage{amsmath,amssymb}
-\usepackage{geometry}
-\usepackage{tcolorbox}
-\geometry{margin=2cm}
-
-\begin{document}
-
-\section*{Séquence : Fonctions affines}
-
-\begin{tcolorbox}[title=Objectifs]
-Reconnaître une fonction affine et interpréter
-les coefficients de l'expression $f(x)=ax+b$.
-\end{tcolorbox}
-
-\section*{Activité}
-Une compagnie de taxi facture 4 euros de prise en charge
-puis 1,50 euro par kilomètre.
-
-\begin{enumerate}
-\item Calculer le prix pour 2 km, 5 km puis 10 km.
-\item Exprimer le prix $P(x)$ en fonction de $x$.
-\item Interpréter les nombres 1,50 et 4.
-\end{enumerate}
-
-\end{document}</code></pre></div></section>
-    <section class="section" id="cadre"><p class="section-tag">Vérification et cadre</p><h2>La grille de contrôle avant usage en classe</h2><div class="check-grid"><label><input type="checkbox"> Les définitions sont exactes.</label><label><input type="checkbox"> Les calculs sont vérifiés.</label><label><input type="checkbox"> Les notations sont cohérentes.</label><label><input type="checkbox"> Le niveau correspond à la classe.</label><label><input type="checkbox"> Les consignes sont claires.</label><label><input type="checkbox"> La correction est complète.</label><label><input type="checkbox"> Aucune donnée personnelle n’est saisie.</label><label><input type="checkbox"> L’usage de l’IA est transparent.</label></div></section>
-    <section class="section two-columns"><div class="card danger"><h3>À éviter</h3><p>Copier-coller des données nominatives d’élèves dans un outil non validé, utiliser l’IA pour prendre une décision automatisée, ou publier une ressource mathématique sans vérification.</p></div><div class="card success"><h3>À privilégier</h3><p>Anonymiser, vérifier, déclarer l’usage de l’IA, et utiliser l’outil comme assistant de préparation plutôt que comme autorité mathématique.</p></div></section>
-    <section class="section" id="ressources"><p class="section-tag">Ressources</p><h2>Kit de formation</h2><div class="resource-grid"><article class="resource"><h3>Plan de formation</h3><p>Déroulé 3 h ou 6 h, objectifs et activités.</p></article><article class="resource"><h3>Banque de prompts</h3><p>Prompts pour activités, automatismes, corrections et LaTeX.</p></article><article class="resource"><h3>Grille de vérification</h3><p>Contrôle rapide d’une production IA en mathématiques.</p></article><article class="resource"><h3>Charte d’usage</h3><p>Cadre simple pour les élèves : autorisé, déclaré, interdit.</p></article></div></section>
   </main>
-  <footer class="footer"><p>Formation IA — Enseignants de mathématiques · Site statique local</p><a href="#top">Retour en haut ↑</a></footer>
-  <script src="script.js"></script>
+
+  <footer class="footer">
+    <p>Formation IA — Enseignants de mathématiques · Version multipage</p>
+    <a href="#top">Retour en haut ↑</a>
+  </footer>
+
+  <script src="assets/js/nav.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Affaire du singe selfie</title>
+  <desc id="desc">Chronologie simplifiée de l'affaire Naruto v. Slater sur le droit d'auteur.</desc>
+  <rect width="960" height="540" rx="24" fill="#111827"/>
+  <text x="48" y="68" fill="#F8FAFC" font-size="34" font-family="Inter, Arial" font-weight="700">Anecdote juridique : le « singe selfie »</text>
+  <line x1="120" y1="280" x2="860" y2="280" stroke="#93C5FD" stroke-width="6"/>
+  <circle cx="180" cy="280" r="18" fill="#2563EB"/>
+  <circle cx="420" cy="280" r="18" fill="#2563EB"/>
+  <circle cx="660" cy="280" r="18" fill="#2563EB"/>
+  <circle cx="840" cy="280" r="18" fill="#F97316"/>
+  <text x="148" y="245" fill="#DBEAFE" font-size="20" font-family="Inter, Arial" font-weight="700">2011</text>
+  <text x="90" y="330" fill="#DBEAFE" font-size="18" font-family="Inter, Arial">Photo prise par le macaque</text>
+  <text x="385" y="245" fill="#DBEAFE" font-size="20" font-family="Inter, Arial" font-weight="700">2015</text>
+  <text x="320" y="330" fill="#DBEAFE" font-size="18" font-family="Inter, Arial">Action judiciaire (PETA)</text>
+  <text x="625" y="245" fill="#DBEAFE" font-size="20" font-family="Inter, Arial" font-weight="700">2018</text>
+  <text x="548" y="330" fill="#DBEAFE" font-size="18" font-family="Inter, Arial">Arrêt de la Cour d'appel</text>
+  <text x="805" y="245" fill="#FED7AA" font-size="20" font-family="Inter, Arial" font-weight="700">Conclusion</text>
+  <text x="705" y="330" fill="#FED7AA" font-size="18" font-family="Inter, Arial">Pas d'auteur non-humain</text>
+  <rect x="70" y="390" width="820" height="100" rx="14" fill="#1F2937" stroke="#60A5FA"/>
+  <text x="95" y="442" fill="#E5E7EB" font-size="20" font-family="Inter, Arial">Le jugement souligne la question centrale : en droit d'auteur, la qualité d'auteur est liée à une personne humaine.</text>
+</svg>

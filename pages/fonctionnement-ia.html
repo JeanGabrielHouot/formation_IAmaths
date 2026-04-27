@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fonctionnement de l'IA — IA × Maths</title>
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/layout.css" />
+  <link rel="stylesheet" href="../assets/css/components.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <div class="brand"><span class="brand-icon">∑</span><span>IA × Maths</span></div>
+      <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+      
+      <div class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="formation.html">Formation</a>
+        <a href="fonctionnement-ia.html">Fonctionnement IA</a>
+        <a href="plateformes.html">Plateformes</a>
+        <a href="prompting.html">Prompting</a>
+        <a href="prompts.html">Prompts</a>
+        <a href="cadre-juridique.html">Cadre juridique</a>
+        <a href="ressources.html">Ressources</a>
+      </div>
+    </nav>
+    <section class="page-hero">
+      <p class="eyebrow">Module 1</p>
+      <h1>Fonctionnement des IA (version enseignant)</h1>
+      <p class="hero-text">Comprendre les concepts clés sans technicité excessive : fenêtre de contexte, base de données vectorielle et arbre de décision.</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="section two-columns">
+      <div>
+        <p class="section-tag">1. Fenêtre de contexte</p>
+        <h2>Ce que le modèle « voit » pour répondre</h2>
+        <p>La fenêtre de contexte correspond à la quantité d'informations que l'IA peut prendre en compte au moment où elle génère sa réponse : consignes, exemples, documents, historique de la conversation.</p>
+        <ul class="clean-list">
+          <li>Plus le contexte est clair, meilleure est la réponse.</li>
+          <li>Si le contexte est ambigu ou incomplet, la réponse peut dériver.</li>
+          <li>Le rôle de l'enseignant est de structurer les entrées.</li>
+        </ul>
+      </div>
+      <aside class="card">
+        <img class="concept-diagram" src="../assets/img/context-window.svg" alt="Infographie sur la fenêtre de contexte d'une IA." />
+        <p class="diagram-caption">Infographie — la réponse dépend directement de la qualité du contexte fourni.</p>
+      </aside>
+    </section>
+
+    <section class="section two-columns">
+      <div>
+        <p class="section-tag">2. Base de données vectorielle</p>
+        <h2>Retrouver des contenus proches par le sens</h2>
+        <p>Une base vectorielle transforme des contenus en représentations numériques pour rechercher ce qui se ressemble sur le plan sémantique. En formation, cela permet de retrouver rapidement des activités proches d'un objectif de cours.</p>
+        <ul class="clean-list">
+          <li>Recherche par proximité d'idée, pas uniquement par mot-clé.</li>
+          <li>Utile pour enrichir le contexte envoyé à l'IA.</li>
+          <li>Pratique pour capitaliser les ressources d'une équipe.</li>
+        </ul>
+      </div>
+      <aside class="card">
+        <img class="concept-diagram" src="../assets/img/vector-db.svg" alt="Diagramme d'une base de données vectorielle et de la recherche sémantique." />
+        <p class="diagram-caption">Infographie — transformer des ressources en vecteurs pour retrouver les contenus proches.</p>
+      </aside>
+    </section>
+
+    <section class="section two-columns">
+      <div>
+        <p class="section-tag">3. Arbre de décision</p>
+        <h2>Un modèle explicable pour orienter un choix</h2>
+        <p>L'arbre de décision découpe un problème en questions successives. Il est utile pour classifier, orienter ou décider selon des règles lisibles (ex : proposer un niveau d'exercice).</p>
+        <ul class="clean-list">
+          <li>Très lisible : chaque embranchement est justifiable.</li>
+          <li>Adapté à des décisions cadrées.</li>
+          <li>Complémentaire des IA génératives.</li>
+        </ul>
+      </div>
+      <aside class="card">
+        <img class="concept-diagram" src="../assets/img/decision-tree.svg" alt="Schéma d'un arbre de décision avec embranchements oui/non." />
+        <p class="diagram-caption">Infographie — un arbre de décision reste lisible et explicable pour orienter un choix.</p>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="card highlight">
+        <h3>Message clé pour la formation</h3>
+        <p>Les IA génératives produisent du texte à partir d'un contexte. Le professeur reste responsable du cadrage pédagogique, de la vérification mathématique et des choix didactiques.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>Formation IA — Fonctionnement des IA</p><a href="#top">Retour en haut ↑</a></footer>
+  <script src="../assets/js/nav.js"></script>
+</body>
+</html>
