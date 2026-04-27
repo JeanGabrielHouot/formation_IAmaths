@@ -24,3 +24,5 @@
 - `assets/img/context-window.svg` : diagramme fenêtre de contexte.
 - `assets/img/vector-db.svg` : diagramme base vectorielle.
 - `assets/img/decision-tree.svg` : diagramme arbre de décision.
+- `assets/img/cadre-ia-education.svg` : synthèse visuelle du cadre d'usage en éducation.
+- `assets/img/monkey-selfie-case.svg` : chronologie de l'affaire du singe selfie.
